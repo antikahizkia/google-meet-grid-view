@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Membuat Tampilan List View dan Grid View Menggunakan Javascript</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>List View or Grid View</h2>
+    <p>Tekan Tombol untuk memilih List View atau Grid View</p>
+ 
+    <div id="btnContainer">
+      <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+      <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+    </div>
+    <br>
+ 
+    <div class="row">
+      <div class="column satu">
+        <img src="images/Chrysanthemum.jpg">
+        <h2>Column 1</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="column dua">
+        <img src="images/Desert.jpg">
+        <h2>Column 2</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+ 
+    <div class="row">
+      <div class="column tiga">
+        <img src="images/Hydrangeas.jpg">
+        <h2>Column 3</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="column empat">
+        <img src="images/Koala.jpg">
+        <h2>Column 4</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
